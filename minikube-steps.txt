@@ -1,0 +1,8 @@
+Following steps are involved in running kubernetes using minikube:
+
+1 - minikube start
+2 - eval $(minikube docker-env)
+3 - minikube addons enable ingress - (Install ingress on minikube)
+4 - minikube ip - (Returns the minikube ip)
+5 - skaffold dev - (Changes reflect realtime inside Kubernetes pods) 
+6 - minikube stop 
